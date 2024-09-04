@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "removeComments": true,
+    "alwaysStrict": true,
+    "useDefineForClassFields": true,
+
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+
+    "stripInternal": false,
+
+    "noEmit": true,
+
+    "sourceMap": false,
+    "declaration": false,
+    "declarationMap": false,
+
+    "importHelpers": false,
+
+    "resolveJsonModule": false,
+
+    "skipLibCheck": true,
+    "isolatedModules": true,
+
+    "outDir": "${configDir}/dist",
+
+    "lib": ["ESNext"],
+    "plugins": [],
+    "types": ["node"],
+
+    "allowJs": true,
+    "checkJs": true,
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitOverride": true,
+
+    "verbatimModuleSyntax": true,
+
+    "incremental": true
+  },
+  "include": ["index.js"],
+  "exclude": ["node_modules", "node_internals", "dist"]
+}
